@@ -1,0 +1,22 @@
+{
+  "name": "EaseAlertController",
+  "version": "0.1.0",
+  "summary": "A short description of EaseAlertController.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Yrocky/EaseAlertController",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Yrocky": "yangheng@ibobei.cn"
+  },
+  "source": {
+    "git": "https://github.com/Yrocky/EaseAlertController.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "EaseAlertController/Classes/**/*"
+}

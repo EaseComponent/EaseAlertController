@@ -1,0 +1,6 @@
+framework module EaseAlertController {
+  umbrella header "EaseAlertController-umbrella.h"
+
+  export *
+  module * { export * }
+}
