@@ -7,6 +7,7 @@
 //
 
 #import "EASEViewController.h"
+#import <EaseAlertController/EaseAlertController.h>
 
 @interface EASEViewController ()
 
@@ -17,7 +18,16 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+    
+}
+
+- (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event{
+    [super touchesBegan:touches withEvent:event];
+    [[[[[EaseAlertController.alert title:@"title"] addAction:^{
+        NSLog(@"one");
+    } title:@"one"] addAction:^{
+        NSLog(@"two");
+    } title:@"two"] addCancelAction:@"cancel"] showIn:self];
 }
 
 - (void)didReceiveMemoryWarning
